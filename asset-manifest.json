@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/mcgd-resources-website/static/css/main.95c664fc.chunk.css",
+    "main.js": "/mcgd-resources-website/static/js/main.794d3ece.chunk.js",
+    "main.js.map": "/mcgd-resources-website/static/js/main.794d3ece.chunk.js.map",
+    "runtime-main.js": "/mcgd-resources-website/static/js/runtime-main.501a0263.js",
+    "runtime-main.js.map": "/mcgd-resources-website/static/js/runtime-main.501a0263.js.map",
+    "static/js/2.284cd7bf.chunk.js": "/mcgd-resources-website/static/js/2.284cd7bf.chunk.js",
+    "static/js/2.284cd7bf.chunk.js.map": "/mcgd-resources-website/static/js/2.284cd7bf.chunk.js.map",
+    "index.html": "/mcgd-resources-website/index.html",
+    "precache-manifest.9ddb4239daffba793889e0617fc79d59.js": "/mcgd-resources-website/precache-manifest.9ddb4239daffba793889e0617fc79d59.js",
+    "service-worker.js": "/mcgd-resources-website/service-worker.js",
+    "static/css/main.95c664fc.chunk.css.map": "/mcgd-resources-website/static/css/main.95c664fc.chunk.css.map",
+    "static/js/2.284cd7bf.chunk.js.LICENSE.txt": "/mcgd-resources-website/static/js/2.284cd7bf.chunk.js.LICENSE.txt",
+    "static/media/challenge1.md": "/mcgd-resources-website/static/media/challenge1.8a21cd6f.md",
+    "static/media/challenge2.md": "/mcgd-resources-website/static/media/challenge2.0d869a89.md",
+    "static/media/challenge3.md": "/mcgd-resources-website/static/media/challenge3.475e0dc5.md",
+    "static/media/challenge4.md": "/mcgd-resources-website/static/media/challenge4.d66eebd4.md",
+    "static/media/challenge5.md": "/mcgd-resources-website/static/media/challenge5.c2b572fa.md",
+    "static/media/challenge6.md": "/mcgd-resources-website/static/media/challenge6.48e4d1d9.md",
+    "static/media/development1.md": "/mcgd-resources-website/static/media/development1.dd4f1638.md",
+    "static/media/development2.md": "/mcgd-resources-website/static/media/development2.cb97c092.md",
+    "static/media/development3.md": "/mcgd-resources-website/static/media/development3.2a404623.md",
+    "static/media/development4.md": "/mcgd-resources-website/static/media/development4.b0522406.md",
+    "static/media/development5.md": "/mcgd-resources-website/static/media/development5.1a0f549d.md",
+    "static/media/development6.md": "/mcgd-resources-website/static/media/development6.73211ebe.md",
+    "static/media/important information.md": "/mcgd-resources-website/static/media/important information.c29e078b.md",
+    "static/media/past presentations.md": "/mcgd-resources-website/static/media/past presentations.f118211d.md",
+    "static/media/server environment.md": "/mcgd-resources-website/static/media/server environment.732fa84d.md"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.501a0263.js",
+    "static/js/2.284cd7bf.chunk.js",
+    "static/css/main.95c664fc.chunk.css",
+    "static/js/main.794d3ece.chunk.js"
+  ]
+}
