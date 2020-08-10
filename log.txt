@@ -1,0 +1,221 @@
+
+> mcgd-frontend-react@0.1.0 serve /home/pacman/mcgamedev/react-frontend
+> PORT=80 serve -s build
+
+INFO: Accepting connections at http://localhost:80
+
+INFO: Gracefully shutting down. Please wait...
+
+> mcgd-frontend-react@0.1.0 serve /home/pacman/mcgamedev/react-frontend
+> PORT=80 serve -s build
+
+WARNING: Checking for updates failed (use `--debug` to see full error)
+INFO: Accepting connections at http://localhost:80
+
+> mcgd-frontend-react@0.1.0 serve /home/pacman/mcgamedev/react-frontend
+> PORT=80 serve -s build
+
+INFO: Accepting connections at http://localhost:80
+
+> mcgd-frontend-react@0.1.0 serve /home/pacman/mcgamedev/react-frontend
+> PORT=80 serve -s build
+
+WARNING: Checking for updates failed (use `--debug` to see full error)
+INFO: Accepting connections at http://localhost:80
+
+> mcgd-frontend-react@0.1.0 serve /home/pacman/mcgamedev/react-frontend
+> PORT=80 serve -s build
+
+INFO: Accepting connections at http://localhost:80
+
+INFO: Gracefully shutting down. Please wait...
+
+> mcgd-frontend-react@0.1.0 serve /home/pacman/mcgamedev/react-frontend
+> PORT=80 serve -s build
+
+INFO: Accepting connections at http://localhost:80
+
+> mcgd-frontend-react@0.1.0 serve /home/pacman/mcgamedev/react-frontend
+> PORT=80 serve -s build
+
+WARNING: Checking for updates failed (use `--debug` to see full error)
+INFO: Accepting connections at http://localhost:80
+
+INFO: Gracefully shutting down. Please wait...
+
+> mcgd-frontend-react@0.1.0 serve /home/pacman/mcgamedev/react-frontend
+> PORT=80 serve -s build
+
+INFO: Accepting connections at http://localhost:80
+
+INFO: Gracefully shutting down. Please wait...
+
+> mcgd-frontend-react@0.1.0 serve /home/pacman/mcgamedev/react-frontend
+> PORT=80 serve -s build
+
+INFO: Accepting connections at http://localhost:80
+
+INFO: Gracefully shutting down. Please wait...
+
+> mcgd-frontend-react@0.1.0 serve /home/pacman/mcgamedev/react-frontend
+> PORT=80 serve -s build
+
+INFO: Accepting connections at http://localhost:80
+
+INFO: Gracefully shutting down. Please wait...
+
+> mcgd-frontend-react@0.1.0 serve /home/pacman/mcgamedev/react-frontend
+> PORT=80 serve -s build
+
+INFO: Accepting connections at http://localhost:80
+
+INFO: Gracefully shutting down. Please wait...
+
+> mcgd-frontend-react@0.1.0 serve /home/pacman/mcgamedev/react-frontend
+> PORT=80 serve -s build
+
+INFO: Accepting connections at http://localhost:80
+
+> mcgd-frontend-react@0.1.0 serve /home/pacman/mcgamedev/react-frontend
+> PORT=80 serve -s build
+
+WARNING: Checking for updates failed (use `--debug` to see full error)
+INFO: Accepting connections at http://localhost:80
+
+> mcgd-frontend-react@0.1.0 serve /home/pacman/mcgamedev/react-frontend
+> PORT=80 serve -s build
+
+WARNING: Checking for updates failed (use `--debug` to see full error)
+INFO: Accepting connections at http://localhost:80
+
+> mcgd-frontend-react@0.1.0 serve /home/pacman/mcgamedev/react-frontend
+> PORT=80 serve -s build
+
+INFO: Accepting connections at http://localhost:80
+
+INFO: Gracefully shutting down. Please wait...
+
+> mcgd-frontend-react@0.1.0 serve /home/pacman/mcgamedev/react-frontend
+> PORT=80 serve -s build
+
+INFO: Accepting connections at http://localhost:80
+
+INFO: Gracefully shutting down. Please wait...
+
+> mcgd-frontend-react@0.1.0 serve /home/pacman/mcgamedev/react-frontend
+> PORT=80 serve -s build
+
+INFO: Accepting connections at http://localhost:80
+
+> mcgd-frontend-react@0.1.0 serve /home/pacman/mcgamedev/react-frontend
+> PORT=80 serve -s build
+
+WARNING: Checking for updates failed (use `--debug` to see full error)
+INFO: Accepting connections at http://localhost:80
+
+INFO: Gracefully shutting down. Please wait...
+
+> mcgd-frontend-react@0.1.0 serve /home/pacman/mcgamedev/react-frontend
+> PORT=80 serve -s build
+
+INFO: Accepting connections at http://localhost:80
+
+INFO: Gracefully shutting down. Please wait...
+
+> mcgd-frontend-react@0.1.0 serve /home/pacman/mcgamedev/react-frontend
+> PORT=80 serve -s build
+
+INFO: Accepting connections at http://localhost:80
+
+INFO: Gracefully shutting down. Please wait...
+
+> mcgd-frontend-react@0.1.0 serve /home/pacman/mcgamedev/react-frontend
+> PORT=80 serve -s build
+
+INFO: Accepting connections at http://localhost:80
+
+INFO: Gracefully shutting down. Please wait...
+
+> mcgd-frontend-react@0.1.0 serve /home/pacman/mcgamedev/react-frontend
+> PORT=80 serve -s build
+
+INFO: Accepting connections at http://localhost:80
+
+INFO: Gracefully shutting down. Please wait...
+
+> mcgd-frontend-react@0.1.0 serve /home/pacman/mcgamedev/react-frontend
+> PORT=80 serve -s build
+
+INFO: Accepting connections at http://localhost:80
+
+INFO: Gracefully shutting down. Please wait...
+
+> mcgd-frontend-react@0.1.0 serve /home/pacman/mcgamedev/react-frontend
+> PORT=80 serve -s build
+
+INFO: Accepting connections at http://localhost:80
+
+> mcgd-frontend-react@0.1.0 serve /home/pacman/mcgamedev/react-frontend
+> PORT=80 serve -s build
+
+WARNING: Checking for updates failed (use `--debug` to see full error)
+INFO: Accepting connections at http://localhost:80
+
+INFO: Gracefully shutting down. Please wait...
+
+> mcgd-frontend-react@0.1.0 serve /home/pacman/mcgamedev/react-frontend
+> PORT=80 serve -s build
+
+WARNING: Checking for updates failed (use `--debug` to see full error)
+INFO: Accepting connections at http://localhost:80
+
+> mcgd-frontend-react@0.1.0 serve /home/pacman/mcgamedev/react-frontend
+> PORT=80 serve -s build
+
+WARNING: Checking for updates failed (use `--debug` to see full error)
+INFO: Accepting connections at http://localhost:80
+
+INFO: Gracefully shutting down. Please wait...
+
+> mcgd-frontend-react@0.1.0 serve /home/pacman/mcgamedev/react-frontend
+> PORT=80 serve -s build
+
+WARNING: Checking for updates failed (use `--debug` to see full error)
+INFO: Accepting connections at http://localhost:80
+
+INFO: Gracefully shutting down. Please wait...
+
+> mcgd-frontend-react@0.1.0 serve /home/pacman/mcgamedev/react-frontend
+> PORT=80 serve -s build
+
+WARNING: Checking for updates failed (use `--debug` to see full error)
+INFO: Accepting connections at http://localhost:80
+
+> mcgd-frontend-react@0.1.0 serve /home/pacman/mcgamedev/react-frontend
+> PORT=80 serve -s build
+
+WARNING: Checking for updates failed (use `--debug` to see full error)
+INFO: Accepting connections at http://localhost:80
+
+INFO: Gracefully shutting down. Please wait...
+
+> mcgd-frontend-react@0.1.0 serve /home/pacman/mcgamedev/react-frontend
+> PORT=80 serve -s build
+
+WARNING: Checking for updates failed (use `--debug` to see full error)
+INFO: Accepting connections at http://localhost:80
+
+INFO: Gracefully shutting down. Please wait...
+
+> mcgd-frontend-react@0.1.0 serve /home/pacman/mcgamedev/react-frontend
+> PORT=80 serve -s build
+
+WARNING: Checking for updates failed (use `--debug` to see full error)
+INFO: Accepting connections at http://localhost:80
+
+INFO: Gracefully shutting down. Please wait...
+
+> mcgd-frontend-react@0.1.0 serve /home/pacman/mcgamedev/react-frontend
+> PORT=80 serve -s build
+
+INFO: Accepting connections at http://localhost:80
