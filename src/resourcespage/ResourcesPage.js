@@ -65,42 +65,42 @@ class ResourcesPage extends React.Component {
                     case 1:
                         this.setState({
                             activeTab: (<div className="activeTab tabcontent">
-                                <iframe className="docsView" src="https://docs.google.com/document/d/e/2PACX-1vRo_cv9taFWvDk2XQ-xCZw24C7Joo6fjVbWGiw3VrVky1LyhNP5NjghStnOdk5rVwhpK4sHzU40q_UH/pub?embedded=true"/>
+                                <iframe title="Design Week 1 Cheatsheet" className="docsView" src="https://docs.google.com/document/d/e/2PACX-1vRo_cv9taFWvDk2XQ-xCZw24C7Joo6fjVbWGiw3VrVky1LyhNP5NjghStnOdk5rVwhpK4sHzU40q_UH/pub?embedded=true"/>
                             </div>)
                         });
                         break;
                     case 2:
                         this.setState({
                             activeTab: (<div className="activeTab tabcontent">
-                                <iframe className="docsView" src="https://docs.google.com/document/d/e/2PACX-1vQ1xteByGT7b7v4rLDDtdDt5LOZY297-l1vUwpZA1WLf-6Llv78JsQRj7KKu83JInV55Cm4XwJ3jGbY/pub?embedded=true"></iframe>
+                                <iframe title="Design Week 2 Cheatsheet" className="docsView" src="https://docs.google.com/document/d/e/2PACX-1vQ1xteByGT7b7v4rLDDtdDt5LOZY297-l1vUwpZA1WLf-6Llv78JsQRj7KKu83JInV55Cm4XwJ3jGbY/pub?embedded=true"/>
                             </div>)
                         });
                         break;
                     case 3:
                         this.setState({
                             activeTab: (<div className="activeTab tabcontent">
-                                <iframe className="docsView" src="https://docs.google.com/document/d/e/2PACX-1vTteAeg1FriixqGAClAsUr6_9TB8o7GYtopfUTj4C5XuNhk1daVbuCqg7B2fq-FF0URu0PoKTW5tEaB/pub?embedded=true"></iframe>
+                                <iframe title="Design Week 3 Cheatsheet" className="docsView" src="https://docs.google.com/document/d/e/2PACX-1vTteAeg1FriixqGAClAsUr6_9TB8o7GYtopfUTj4C5XuNhk1daVbuCqg7B2fq-FF0URu0PoKTW5tEaB/pub?embedded=true"/>
                             </div>)
                         });
                         break;
                     case 4:
                         this.setState({
                             activeTab: (<div className="activeTab tabcontent">
-                                <iframe className="docsView" src="https://docs.google.com/document/d/e/2PACX-1vRVFzi5v5q230yhGLTghh9AsVz3Dyy2Ua326qhvzqlgkVDKwZvMHXrX8sCzIEK_EbX4QoQ5gTbqWzuE/pub?embedded=true"></iframe>
+                                <iframe title="Design Week 4 Cheatsheet" className="docsView" src="https://docs.google.com/document/d/e/2PACX-1vRVFzi5v5q230yhGLTghh9AsVz3Dyy2Ua326qhvzqlgkVDKwZvMHXrX8sCzIEK_EbX4QoQ5gTbqWzuE/pub?embedded=true"/>
                             </div>)
                         });
                         break;
                     case 5:
                         this.setState({
                             activeTab: (<div className="activeTab tabcontent">
-                                <iframe className="docsView" src="https://docs.google.com/document/d/e/2PACX-1vTO9C23lVWOjwMfb-tzcIoShtz2yhOOIk2P89uVhosMsNFOcbcwdSgj0bdOvLdgPOY7UDYGKVnUGFr9/pub?embedded=true"></iframe>
+                                <iframe title="Design Week 5 Cheatsheet" className="docsView" src="https://docs.google.com/document/d/e/2PACX-1vTO9C23lVWOjwMfb-tzcIoShtz2yhOOIk2P89uVhosMsNFOcbcwdSgj0bdOvLdgPOY7UDYGKVnUGFr9/pub?embedded=true"/>
                             </div>)
                         });
                         break;
                     case 6:
                         this.setState({
                             activeTab: (<div className="activeTab tabcontent">
-                                <iframe className="docsView" src="https://docs.google.com/document/d/e/2PACX-1vRmmK0KV_EGTCaxlBc1Il5Hb7s27u5ukLPkFetRvPj2Z9qlL-p2M5tfHACRN70YSgVt31T7O9DB-Xx1/pub?embedded=true"></iframe>
+                                <iframe title="Design Week 6 Cheatsheet" className="docsView" src="https://docs.google.com/document/d/e/2PACX-1vRmmK0KV_EGTCaxlBc1Il5Hb7s27u5ukLPkFetRvPj2Z9qlL-p2M5tfHACRN70YSgVt31T7O9DB-Xx1/pub?embedded=true"/>
                             </div>)
                         });
                         break;
@@ -113,6 +113,8 @@ class ResourcesPage extends React.Component {
                 break;
             case "CHALLENGE":
                 this.loadMarkdownAsActiveTab("challenge" + tabNumber);
+                break;
+            default:
                 break;
         }
     }
@@ -172,6 +174,8 @@ class ResourcesPage extends React.Component {
                 return "The Mystical Redstone Sheep";
             case 6:
                 return "The Arena";
+            default:
+                return null;
         }
     }
 
@@ -189,6 +193,8 @@ class ResourcesPage extends React.Component {
                 return "The Mystical Redstone Sheep";
             case 6:
                 return "The Arena";
+            default:
+                return null;
         }
     }
 
@@ -206,6 +212,8 @@ class ResourcesPage extends React.Component {
                 return "Saving/Loading Files";
             case 6:
                 return "Item Meta";
+            default:
+                return null;
         }
     }
 
