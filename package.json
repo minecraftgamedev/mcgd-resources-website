@@ -1,6 +1,6 @@
 {
   "name": "mcgd-frontend-react",
-  "homepage": "http://minecraftgamedev.github.io/mcgd-resources-website",
+  "homepage": "http://minecraftgamedev.github.io/resources",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

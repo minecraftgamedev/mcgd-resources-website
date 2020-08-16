@@ -3,14 +3,6 @@ import './ResourcesPage.css';
 import Header from "../Header";
 import ReactMarkdown from "react-markdown";
 
-function shouldShowLessonContent(weekNumber) {
-    return true;
-}
-
-function shouldShowChallenge(weekNumber) {
-    return true;
-}
-
 class ResourcesPage extends React.Component {
     constructor(props) {
         super(props);
@@ -66,23 +58,9 @@ class ResourcesPage extends React.Component {
 
         switch(tabType) {
             case "DEVELOPMENT":
-                if(!shouldShowLessonContent(tabNumber)) {
-                    this.setState({
-                        activeTab: (<div className="activeTab tabcontent"><p>Check back after the lesson!</p></div>)
-                    });
-                    break;
-                }
-
                 this.loadMarkdownAsActiveTab("development" + tabNumber);
                 break;
             case "DESIGN":
-                if(!shouldShowLessonContent(tabNumber)) {
-                    this.setState({
-                        activeTab: (<div className="activeTab tabcontent"><p>Check back after the lesson!</p></div>)
-                    });
-                    break;
-                }
-
                 switch(tabNumber) {
                     case 1:
                         this.setState({
@@ -134,13 +112,6 @@ class ResourcesPage extends React.Component {
                 }
                 break;
             case "CHALLENGE":
-                if(!shouldShowChallenge(tabNumber)) {
-                    this.setState({
-                        activeTab: (<div className="activeTab tabcontent"><p>Check back after class!</p></div>)
-                    });
-                    break;
-                }
-
                 this.loadMarkdownAsActiveTab("challenge" + tabNumber);
                 break;
         }
@@ -184,16 +155,58 @@ class ResourcesPage extends React.Component {
 
     openPastPresentations(event) {
         this.setTabActive(event);
+        this.loadMarkdownAsActiveTab("past presentations", true);   
+    }
 
-        if(shouldShowLessonContent(6)) {
-            this.loadMarkdownAsActiveTab("past presentations", true);
-        } else {
-            this.setState({
-                activeTab: (
-                    <div className="activeTab tabcontent"><p>Check back later!</p></div>
-                )
-            });
-        }       
+    getChallengeWeekTitles(weekNumber) {
+        switch(weekNumber) {
+            case 1:
+                return "Cross the Bridge";
+            case 2:
+                return "Mission Codewords";
+            case 3:
+                return "Timing is Everything";
+            case 4:
+                return "Ravager Islands";
+            case 5:
+                return "The Mystical Redstone Sheep";
+            case 6:
+                return "The Arena";
+        }
+    }
+
+    getDevelopmentWeekTitles(weekNumber) {
+        switch(weekNumber) {
+            case 1:
+                return "Cross the Bridge";
+            case 2:
+                return "Mission Codewords";
+            case 3:
+                return "Timing is Everything";
+            case 4:
+                return "Ravager Islands";
+            case 5:
+                return "The Mystical Redstone Sheep";
+            case 6:
+                return "The Arena";
+        }
+    }
+
+    getDesignWeekTitles(weekNumber) {
+        switch(weekNumber) {
+            case 1:
+                return "Basic Plugin Structure and Events";
+            case 2:
+                return "Commands";
+            case 3:
+                return "Locations, Blocks and BukkitRunnable Timers";
+            case 4:
+                return "Minecraft UI";
+            case 5:
+                return "Saving/Loading Files";
+            case 6:
+                return "Item Meta";
+        }
     }
 
     render() {
@@ -225,7 +238,7 @@ class ResourcesPage extends React.Component {
                         <div id="collapse1" className="collapse">
                             <ul className="list-group">
                                 {this.activeWeeks.map(weekNumber => (
-                                    <li className="list-group-item"><button className="tablinks" onClick={(event) => this.openTab(event, weekNumber, "CHALLENGE")}>Week {weekNumber}</button></li>
+                                    <li className="list-group-item"><button className="tablinks" onClick={(event) => this.openTab(event, weekNumber, "CHALLENGE")}>{this.getChallengeWeekTitles(weekNumber)}</button></li>
                                 ))}
                             </ul>
                         </div>
@@ -238,7 +251,7 @@ class ResourcesPage extends React.Component {
                         <div id="collapse2" className="collapse">
                             <ul className="list-group">
                                 {this.activeWeeks.map(weekNumber => (
-                                    <li className="list-group-item"><button className="tablinks" onClick={(event) => this.openTab(event, weekNumber, "DESIGN")}>Week {weekNumber}</button></li>
+                                    <li className="list-group-item"><button className="tablinks" onClick={(event) => this.openTab(event, weekNumber, "DESIGN")}>{this.getDesignWeekTitles(weekNumber)}</button></li>
                                 ))}
                             </ul>
                         </div>
@@ -251,7 +264,7 @@ class ResourcesPage extends React.Component {
                         <div id="collapse3" className="collapse">
                             <ul className="list-group">
                                 {this.activeWeeks.map(weekNumber => (
-                                    <li className="list-group-item"><button className="tablinks" onClick={(event) => this.openTab(event, weekNumber, "DEVELOPMENT")}>Week {weekNumber}</button></li>
+                                    <li className="list-group-item"><button className="tablinks" onClick={(event) => this.openTab(event, weekNumber, "DEVELOPMENT")}>{this.getDevelopmentWeekTitles(weekNumber)}</button></li>
                                 ))}
                                 <li className="list-group-item"><button className="tablinks" onClick={(event) => this.openCustomTab(event, "server")}>Server Environment</button></li>
                             </ul>

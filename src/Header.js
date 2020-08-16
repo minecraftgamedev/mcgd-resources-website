@@ -3,6 +3,12 @@ import React from "react";
 class Header extends React.Component {
     constructor(props) {
         super(props);
+
+        this.pagination = (
+            <ul className="pagination">
+                <li><a href="https://minecraftgamedev.github.io/teach/">TEACHING RESOURCES</a></li>
+                <li className="active"><a href="/">STUDENT RESOURCES</a></li>
+            </ul>);
     }
 
     render() {
@@ -17,6 +23,8 @@ class Header extends React.Component {
 
                 <div className="container dashboard">
                     <h1>RESOURCES</h1>
+
+                    {this.pagination}
                 </div>
             </div>
         );
