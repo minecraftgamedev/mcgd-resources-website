@@ -18,14 +18,7 @@ class ResourcesPage extends React.Component {
     }
 
     componentDidMount() {
-        this.openPastPresentations(null);
         document.getElementById("defaultOpen").click();
-
-        fetch(require("../markdown/development1.md")).then((response) => response.text()).then((text) => {
-            this.setState({
-                development1: text
-            });
-        });
     }
 
     loadMarkdownAsActiveTab(name) {
@@ -182,25 +175,6 @@ class ResourcesPage extends React.Component {
     getDevelopmentWeekTitles(weekNumber) {
         switch(weekNumber) {
             case 1:
-                return "Cross the Bridge";
-            case 2:
-                return "Mission Codewords";
-            case 3:
-                return "Timing is Everything";
-            case 4:
-                return "Ravager Islands";
-            case 5:
-                return "The Mystical Redstone Sheep";
-            case 6:
-                return "The Arena";
-            default:
-                return null;
-        }
-    }
-
-    getDesignWeekTitles(weekNumber) {
-        switch(weekNumber) {
-            case 1:
                 return "Basic Plugin Structure and Events";
             case 2:
                 return "Commands";
@@ -212,6 +186,25 @@ class ResourcesPage extends React.Component {
                 return "Saving/Loading Files";
             case 6:
                 return "Item Meta";
+            default:
+                return null;
+        }
+    }
+
+    getDesignWeekTitles(weekNumber) {
+        switch(weekNumber) {
+            case 1:
+                return "Basics of Game Structure";
+            case 2:
+                return "Competition and Fairness";
+            case 3:
+                return "Player Types";
+            case 4:
+                return "Controls";
+            case 5:
+                return "Repetition and Pacing";
+            case 6:
+                return "The Future and Moving On";
             default:
                 return null;
         }
